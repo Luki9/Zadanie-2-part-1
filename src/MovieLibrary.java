@@ -12,6 +12,8 @@ public class MovieLibrary {
 
                     movie.director = "Robert Zemeckis";
 
+                    movie.oscars = true;
+
                     movie.rating = 9;
 
 
@@ -24,7 +26,7 @@ public class MovieLibrary {
 
                     System.out.printf("Reżyser: %s\n", movie.director);
 
-                    System.out.println("Ocena: 9/10\n");
+                    System.out.printf("Ocena: %d/10\n", movie.rating);
 
                     System.out.printf("Czy otrzymał Oskara: %s", movie.oscars);
 
