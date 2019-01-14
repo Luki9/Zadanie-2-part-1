@@ -7,9 +7,9 @@
 
    String director;
 
-   String rating;
+   int rating;
 
-   String oscars;
+   boolean oscars;
 
 
 
